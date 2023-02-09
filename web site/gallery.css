@@ -1,0 +1,95 @@
+ *{
+   margin: 0px;
+   background-color: #CCF0FC;
+}
+
+h1{
+	background-color: aqua;
+ text-align: center;
+}
+p{
+	background-color: aqua;
+ font-size: 40px;
+ text-align: center;
+}
+
+header{
+	background-color: aqua;
+
+font-family: 'Dokdo', cursive;
+font-size: 30px;
+padding: 20px;
+}
+main{
+	background-color: #CCF0FC;
+      margin-left: 40px;
+        width: 100%;
+        margin-top: 40px;
+}
+.box{
+	
+ width: 30%;
+ float: left;
+ padding: 5px;
+ padding-left: 10px; 
+ padding-right: 10px; 
+ display: block;
+
+}
+
+img{
+ width: 100%;
+ border-radius: 4px;
+
+}
+
+img:hover{
+  transform: scale(1.3,1.3);
+  transition: .3s transform;
+
+}
+u{
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    position: absolute;
+    top:0%
+
+}
+u li{
+
+    display: inline-block;
+    scroll-behavior: smooth;
+
+}
+u li a{
+    text-decoration: none;
+    color: #fff;
+    padding:5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+
+
+}
+u li a:hover{
+    background-color: #7DCDFF;
+    colour:#000;
+
+}
+u li.active a{
+
+    background-color: #000;
+    colour: #fff;
+}
+nav{
+
+    width: 100%;
+    border:  solid transparent;
+    transition: 0.6s ease;
+    position: fixed;
+    top: 0%;
+    background-color: transparent;
+
+}

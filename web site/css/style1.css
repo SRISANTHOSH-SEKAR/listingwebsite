@@ -1,0 +1,41 @@
+body{
+	background-image:url("../images/background2.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#container{
+	text-align: center;
+	color:green;
+}
+#links h1{
+	text-align: center;
+}
+#links li{
+	padding: 12px;
+	color:white;
+	margin: 12px;
+	border-radius: 12px;
+	top:50px;
+	left: 500px;
+	background-color:blue;
+	width: 350px;
+	position: relative;
+
+
+}
+#links li:hover{
+	color:black;
+	background-color: white;
+	transition-duration: 1.2s;
+	transform: scale(1.5)
+}
+
+div.h1{
+	text-align: center;
+	position: absolute;
+	top: 60%;
+	right: 50%;
+	color: white;
+	background-color: yellow;
+}

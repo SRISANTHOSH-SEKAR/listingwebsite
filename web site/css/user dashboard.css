@@ -1,0 +1,34 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("../images/bg2.jpg");
+	background-size: cover;
+	background-position: fixed;
+	background-repeat: no repeat;
+}
+.menu-bar{
+	background:green;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 10px;
+	padding: 10px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: white;
+}
+.active,.menu-bar ul li:hover{
+	background:#2bab0d;
+	border-radius: 3px;
+}
